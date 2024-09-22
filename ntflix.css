@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.navbar-nav .nav-link.active,
+.nav-link {
+    color: rgb(255 255 255);
+}
+
+#user {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://picsum.photos/200/200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+}
+
+input {
+    opacity: 0;
+    border: 1px solid white;
+}
+
+input:hover {
+    opacity: 1.0;
+}
+
+footer {
+    background: black;
+}
+
+.text-body-secondary {
+    color: white !important;
+}
+
+#generes {
+    border-radius: 0%;
+}
+
+.movie-row img {
+    width: 100%;
+    position: relative;
+}
+
+.section img:last-of-type~.film-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.516);
+    position: absolute;
+    top: 0
+}
+
+.img-film {
+    transition: 0.3s;
+}
+
+.img-film:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
